@@ -27,6 +27,7 @@
   ],
   "rules": {
     "react/jsx-filename-extension": 0,
+    "semi": ["error", "always"],
     "react/destructuring-assignment": 0,
     "array-bracket-spacing": 2,
     "arrow-body-style": 0,
