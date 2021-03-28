@@ -19,12 +19,13 @@ deploy:
 # like heroku, but is github-pages
   provider: pages
   # to clean up
+  strategy: git
   cleanup: true
-  keephistory: true
+  keep_history: true
   # to connect with github
   token: $GITHUB_TOKEN
   # path where all will be store, dir resoult of compilation
-  local_dir: dis/ # as public o bundle
+  local_dir: dist/ # as public o bundle
   # this branch it recomended of Github
   target_branch: gh-pages
   commit_message: "Deploying project"
